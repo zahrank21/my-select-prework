@@ -1,7 +1,12 @@
-def my_select(collection)
-  if collection.length < 1
-    return nil
-  else
-  collection.select {|el| el.include?("steve")
+def my_select(arr) 
+counter = 0
+result = []
+
+while counter < array.length
+  if yield(array[count]) == true
+    result.push(array[count])
   end
+  count+=1
+end
+result
 end
