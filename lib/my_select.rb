@@ -1,12 +1,12 @@
-def my_select(arr) 
+def my_select(arr)
 counter = 0
 result = []
 
 while counter < array.length
-  if yield(array[count]) == true
-    result.push(array[count])
+  if yield(arr[counter]) == true
+    result.push(arr[counter])
   end
-  count+=1
+  counter+=1
 end
 result
 end
